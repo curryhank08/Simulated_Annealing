@@ -3,11 +3,11 @@
 SA(distance_matrix, initial_temperature, cooling_rate, max_iterations, stagnation_limit)
 ```{r}
 distance_matrix : a nested list containg the distances between city1 and city2
-initial_temperature : Cooling from this teperature;
+initial_temperature : Cooling from this teperature
 cooling_rate : used in each iteration within SA function to get its temperature(shown as below)
 # temperature = initial_temperature / (1 + cooling_rate * iteration)
-max_iterations : 
-stagnation_limit :
+max_iterations : max number of the iteration finding a new path within SA function
+stagnation_limit : max number of not accepting a new path (not shorter and not accepted under the probability from acceptance_probability(current_distance, new_distance, temperature))
 ```
 #### Example:
 ```{r}

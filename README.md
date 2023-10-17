@@ -3,9 +3,10 @@
 SA(distance_matrix, initial_temperature, cooling_rate, max_iterations, stagnation_limit)
 ```{r}
 distance_matrix : a nested list containg the distances between city1 and city2
-initial_temperature :
-cooling_rate :
-max_iterations :
+initial_temperature : Cooling from this teperature;
+cooling_rate : used in each iteration within SA function to get its temperature(shown as below)
+# temperature = initial_temperature / (1 + cooling_rate * iteration)
+max_iterations : 
 stagnation_limit :
 ```
 #### Example:

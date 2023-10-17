@@ -37,5 +37,6 @@ Minimum Total Distancee: 305.9292632050412
 Corresponding Path: [0, 4, 8, 1, 3, 6, 7, 2, 5, 9, 0]
 Running Time: 0.004587 seconds
 ```
-
+#### More detail code in Colab 
+Link: https://drive.google.com/file/d/1ZLMp5Gq3O80MP0lcKmgVyeigOv094kHY/view?usp=sharing
 
